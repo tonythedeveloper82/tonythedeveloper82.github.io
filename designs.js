@@ -1,12 +1,10 @@
-/* JavaScript function to create the grid when submit button is clicked.
- * It takes in height and width of the grid from the html form and creates
- * the grid on the table canvas element in html page.
- */
+//javascript function that will make grid once submit button is clicked
 function makeGrid() {
   var height = document.getElementById('input_height').value;
   var width = document.getElementById('input_width').value;
   var table = document.getElementById('pixel_canvas');
-// Table grid creation code :
+
+//create table grid:
   table.innerHTML = '';
   var tbody = document.createElement('tbody');
   for (var i = 0; i < height; i++) {
@@ -21,7 +19,7 @@ function makeGrid() {
   table.appendChild(tbody);
 }
 
-//jQuery to change color of pixel when clicked.
+//change color of pixel
 $('body').on('click', 'td', function() {
 var color = document.getElementById('colorPicker').value;
   $(this).css('background-color', color);
