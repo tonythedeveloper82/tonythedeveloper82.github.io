@@ -4,22 +4,21 @@ body {
 }
 
 h1 {
-  font-family: Monoton;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 70px;
   margin: 0.2em;
   color: navy;
+  text-shadow: 2px 2px #334;
 }
 
 h2 {
   margin: 1em 0 0.25em;
   color: lightblue;
-  text-shadow: 2px 2px #334;
 }
 
 h2:first-of-type {
   margin-top: 0.5em;
   color: lightblue;
-  text-shadow: 2px 2px #344;
 }
 
 table, tr, td {
