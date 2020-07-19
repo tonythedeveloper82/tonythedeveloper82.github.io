@@ -4,13 +4,6 @@ body {
   color: lightblue;
 }
 
-.border{
-  width: 100%;
-  max-width: 900px;
-  margin: 25px auto;
-  padding: 8px 8px 25px;
-  border: 10px solid rgb(0, 47, 88);
-
 h1 {
   color:
   font-family: Monoton;
